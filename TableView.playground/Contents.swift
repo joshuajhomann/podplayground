@@ -5,10 +5,7 @@ import AlamofireObjectMapper
 import SDWebImage
 import ObjectMapper
 
-enum APIResponse<T> {
-    case success(T), failure(Error)
-}
-typealias RedditPostCallBack = (APIResponse<(String,[RedditPost])>) -> Void
+typealias RedditPostCallBack = ([RedditPost]?, Error?) -> Void
 
 struct RedditPost {
     var title = ""
