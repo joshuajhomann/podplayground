@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035ECBA51E32E87900545BC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ECBA41E32E87900545BC8 /* AppDelegate.swift */; };
+		035ECBA71E32E87900545BC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ECBA61E32E87900545BC8 /* ViewController.swift */; };
+		035ECBAA1E32E87900545BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035ECBA81E32E87900545BC8 /* Main.storyboard */; };
+		035ECBAC1E32E87900545BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035ECBAB1E32E87900545BC8 /* Assets.xcassets */; };
+		035ECBAF1E32E87900545BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035ECBAD1E32E87900545BC8 /* LaunchScreen.storyboard */; };
+		0936FA1A986787B97D20F4B9 /* Pods_Pod_Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7DD366BE324932CFC9D802 /* Pods_Pod_Playground.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		035ECBA11E32E87900545BC8 /* Pod Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035ECBA41E32E87900545BC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		035ECBA61E32E87900545BC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		035ECBA91E32E87900545BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		035ECBAB1E32E87900545BC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		035ECBAE1E32E87900545BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		035ECBB01E32E87900545BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035ECBB61E32E8BF00545BC8 /* TableView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TableView.playground; sourceTree = SOURCE_ROOT; };
+		037F2F9E1E4638E500D9F179 /* Ring.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Ring.playground; sourceTree = "<group>"; };
+		5E7DD366BE324932CFC9D802 /* Pods_Pod_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F82312D8EE1D366B12382D /* Pods-Pod Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pod Playground/Pods-Pod Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		6FA323AEBD3AEE61DD11C107 /* Pods-Pod Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pod Playground/Pods-Pod Playground.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035ECB9E1E32E87900545BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0936FA1A986787B97D20F4B9 /* Pods_Pod_Playground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035ECB981E32E87900545BC8 = {
+			isa = PBXGroup;
+			children = (
+				037F2F9E1E4638E500D9F179 /* Ring.playground */,
+				035ECBB61E32E8BF00545BC8 /* TableView.playground */,
+				035ECBA31E32E87900545BC8 /* Pod Playground */,
+				035ECBA21E32E87900545BC8 /* Products */,
+				80E79243EBAA1893140FF531 /* Pods */,
+				B05FB08B32239F7A7877229C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		035ECBA21E32E87900545BC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035ECBA11E32E87900545BC8 /* Pod Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035ECBA31E32E87900545BC8 /* Pod Playground */ = {
+			isa = PBXGroup;
+			children = (
+				035ECBA41E32E87900545BC8 /* AppDelegate.swift */,
+				035ECBA61E32E87900545BC8 /* ViewController.swift */,
+				035ECBA81E32E87900545BC8 /* Main.storyboard */,
+				035ECBAB1E32E87900545BC8 /* Assets.xcassets */,
+				035ECBAD1E32E87900545BC8 /* LaunchScreen.storyboard */,
+				035ECBB01E32E87900545BC8 /* Info.plist */,
+			);
+			path = "Pod Playground";
+			sourceTree = "<group>";
+		};
+		80E79243EBAA1893140FF531 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63F82312D8EE1D366B12382D /* Pods-Pod Playground.debug.xcconfig */,
+				6FA323AEBD3AEE61DD11C107 /* Pods-Pod Playground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B05FB08B32239F7A7877229C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E7DD366BE324932CFC9D802 /* Pods_Pod_Playground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035ECBA01E32E87900545BC8 /* Pod Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035ECBB31E32E87900545BC8 /* Build configuration list for PBXNativeTarget "Pod Playground" */;
+			buildPhases = (
+				8D29171F4069309DF27E78E2 /* [CP] Check Pods Manifest.lock */,
+				035ECB9D1E32E87900545BC8 /* Sources */,
+				035ECB9E1E32E87900545BC8 /* Frameworks */,
+				035ECB9F1E32E87900545BC8 /* Resources */,
+				411D7F47D836980A4400F718 /* [CP] Embed Pods Frameworks */,
+				A33E546D9AB3AB51BF144BC7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pod Playground";
+			productName = "Pod Playground";
+			productReference = 035ECBA11E32E87900545BC8 /* Pod Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035ECB991E32E87900545BC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					035ECBA01E32E87900545BC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 035ECB9C1E32E87900545BC8 /* Build configuration list for PBXProject "Pod Playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035ECB981E32E87900545BC8;
+			productRefGroup = 035ECBA21E32E87900545BC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035ECBA01E32E87900545BC8 /* Pod Playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035ECB9F1E32E87900545BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035ECBAF1E32E87900545BC8 /* LaunchScreen.storyboard in Resources */,
+				035ECBAC1E32E87900545BC8 /* Assets.xcassets in Resources */,
+				035ECBAA1E32E87900545BC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		411D7F47D836980A4400F718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod Playground/Pods-Pod Playground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D29171F4069309DF27E78E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A33E546D9AB3AB51BF144BC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod Playground/Pods-Pod Playground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035ECB9D1E32E87900545BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035ECBA71E32E87900545BC8 /* ViewController.swift in Sources */,
+				035ECBA51E32E87900545BC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		035ECBA81E32E87900545BC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035ECBA91E32E87900545BC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035ECBAD1E32E87900545BC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035ECBAE1E32E87900545BC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035ECBB11E32E87900545BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		035ECBB21E32E87900545BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035ECBB41E32E87900545BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F82312D8EE1D366B12382D /* Pods-Pod Playground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pod Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Pod-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		035ECBB51E32E87900545BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA323AEBD3AEE61DD11C107 /* Pods-Pod Playground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pod Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Pod-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035ECB9C1E32E87900545BC8 /* Build configuration list for PBXProject "Pod Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035ECBB11E32E87900545BC8 /* Debug */,
+				035ECBB21E32E87900545BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035ECBB31E32E87900545BC8 /* Build configuration list for PBXNativeTarget "Pod Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035ECBB41E32E87900545BC8 /* Debug */,
+				035ECBB51E32E87900545BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035ECB991E32E87900545BC8 /* Project object */;
+}
